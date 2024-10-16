@@ -1,0 +1,8 @@
+#host specific to server1 192.168.45.66
+---
+memory:
+   - name: "mem"
+     description: "internal memory"
+   - name: "swap"
+     description: "swap memory"
+   - name: "disk"

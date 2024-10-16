@@ -1,0 +1,18 @@
+# list of hosts
+---
+server1:
+   name: server1
+   add: "192.168.45.66"
+   cmd: "ls -l /home/eventum/Training_Lab/tarek_tests/"
+   username: "eventum"
+   password: "P@ssw0rd"
+   platform: linux
+   file_location: /home/eventum/Training_Lab/tarek_tests/kpis.txt
+server2:
+   name: server2
+   add: "192.168.224.223"
+   cmd: "lsblk"
+   username: "local-admin"
+   password: "P@ssw0rd"
+   platform: linux
+   file_location: /etc/hosts

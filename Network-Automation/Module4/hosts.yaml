@@ -1,0 +1,10 @@
+# list of hosts
+---
+Router1:
+   name: R1
+   add: "192.168.224.125"
+   cmd: "ls -l /home/eventum/Training_Lab/tarek_tests/"
+   username: "cisco"
+   password: "cisco"
+   platform: ios
+   file_location: /home/eventum/Training_Lab/tarek_tests/kpis.txt
