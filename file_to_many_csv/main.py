@@ -23,7 +23,7 @@ def split_csv(input_file, output_dir):
         writers = {}
         files = {}
         for i, header in enumerate(headers[1:], start=1):
-            output_file = os.path.join(output_dir, f"{header}_Enrich_Lookup.csv")
+            output_file = os.path.join(output_dir, f"{header.replace('�','').replace('#','').strip().replace(' ','_')}_Enrich_Lookup.csv")
             files[header] = open(output_file, mode='w', newline='', encoding='utf-8')
             writers[header] = csv.writer(files[header])
 
